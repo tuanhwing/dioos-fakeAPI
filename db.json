@@ -1,14 +1,272 @@
 {
-  "countrys" : [
-    { "code": 1, "title": "Vietnam" },
-    { "code": 2, "title": "US" },
-    { "code": 3, "title": "UK" },
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "teams": [
+        {
+            "team_id": "1",
+            "name": "Team 1",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZKspiTFO-yVZjXNzie92Kl37GxWeSFUdNcrg3evREchjUQlN",
+            "request_count": 60
+        },
+        {
+            "team_id": "2",
+            "name": "Team 2",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZKspiTFO-yVZjXNzie92Kl37GxWeSFUdNcrg3evREchjUQlN",
+            "request_count": 13
+        },
+        {
+            "team_id": "3",
+            "name": "Team 4",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZKspiTFO-yVZjXNzie92Kl37GxWeSFUdNcrg3evREchjUQlN",
+            "request_count": 5
+        },
+        {
+            "team_id": "4",
+            "name": "Team 4",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZKspiTFO-yVZjXNzie92Kl37GxWeSFUdNcrg3evREchjUQlN",
+            "request_count": 65
+        }
+    ],
+    "requests": [
+        {
+            "user_id": "1",
+            "team_id": "1",
+            "email": "email@gmail.com",
+            "name": "Avram Tarasios",
+            "position": "leader",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIcy2GVYW7xQQqSOWP0EsAH9Q1VAcBuMNMCGwyx0xbOcC5mi0pA"
+        },
+        {
+            "user_id": "2",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        },
+        {
+            "user_id": "5",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        },
+        {
+            "user_id": "3",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        },
+        {
+            "user_id": "5",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        },
+        {
+            "user_id": "3",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        },
+        {
+            "user_id": "5",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        },
+        {
+            "user_id": "3",
+            "team_id": "1",
+            "email": "email2@gmail.com",
+            "name": "Avatr Jub",
+            "position": "member",
+            "phone": "0123456789",
+            "photos": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvF7PbNUzsyRnuLgHOVf82gNm7SZXbKUyPJMYpU_ziweeGulCPQ"
+        }
+    ],
+    "users": [
+        {
+            "avatar": {
+                "url": "img/avatars/1.jpg",
+                "status": "success"
+            },
+            "user": {
+                "userID": "1",
+                "name": "Yiorgos Avraamu",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "Vietnam",
+                "flag": "vn"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/2.jpg",
+                "status": "danger"
+            },
+            "user": {
+                "userID": "2",
+                "name": "Avram Tarasios",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "England",
+                "flag": "gb-eng"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/3.jpg",
+                "status": "warning"
+            },
+            "user": {
+                "userID": "3",
+                "name": "Quintin Ed",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "India",
+                "flag": "in"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/1.jpg",
+                "status": "success"
+            },
+            "user": {
+                "userID": "4",
+                "name": "Yiorgos Avraamu",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "Vietnam",
+                "flag": "vn"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/2.jpg",
+                "status": "success"
+            },
+            "user": {
+                "userID": "5",
+                "name": "Yiorgos Asdd",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "Vietnam",
+                "flag": "vn"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/6.jpg",
+                "status": "warning"
+            },
+            "user": {
+                "userID": "6",
+                "name": "Quintin LOLL",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "India",
+                "flag": "in"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/4.jpg",
+                "status": "warning"
+            },
+            "user": {
+                "userID": "7",
+                "name": "sdddđs Ed",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "India",
+                "flag": "in"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        },
+        {
+            "avatar": {
+                "url": "img/avatars/4.jpg",
+                "status": "warning"
+            },
+            "user": {
+                "userID": "8",
+                "name": "sdddđs Ed",
+                "new": true,
+                "register": "Jan 1, 2015"
+            },
+            "language": {
+                "name": "India",
+                "flag": "in"
+            },
+            "gender": {
+                "name": "male",
+                "icon": "icon-male"
+            },
+            "token": "Device Token"
+        }
+    ]
 }
