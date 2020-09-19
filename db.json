@@ -1,1 +1,7 @@
-
+{
+  "get" : [
+    { "code": 1, "title": "Vietnam" },
+    { "code": 2, "title": "US" },
+    { "code": 3, "title": "UK" },
+  ]
+}
